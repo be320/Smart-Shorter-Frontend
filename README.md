@@ -1,3 +1,12 @@
+# Smart-Shorter-Frontend
+Frontend view for Smart Shorter API
+
+# Implementation
+project developed by Reactjs framework
+
+# Deployment
+project is depployed on heroku: https://smart-shorter-frontend.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
