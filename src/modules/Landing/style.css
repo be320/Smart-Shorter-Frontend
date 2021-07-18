@@ -1,0 +1,17 @@
+.LandingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.LandingHead{
+    color: aliceblue;
+}
+
+.LandingButton {
+    width: 250px;
+    height: 100px;
+  }
