@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
 import Button from "@material-ui/core/Button";
+const axios = require("axios");
 
 const Landing = props => {
+
+  useEffect(() => {
+    test()
+  },[]);
+
 
 const addLink = () => {
   props.history.push('/addLink');
@@ -14,6 +20,10 @@ const getLinks = () => {
 
 const updateLink = () => {
   props.history.push('/updateLink');
+}
+
+const test = () => {
+  axios.get("https://smart-shorter.herokuapp.com/").then(res=>{})
 }
 
   return (
